@@ -1,0 +1,25 @@
+singleQuote: true
+semi: false
+printWidth: 100
+trailingComma: none
+importOrder:
+  [
+    '^(react/(.*)$)|^(react$)',
+    '^@/types/(.*)$',
+    '<THIRD_PARTY_MODULES>',
+    '',
+    '^types$',
+    '^@/env(.*)$',
+    '^@/types$',
+    '^@/config/(.*)$',
+    '^@/store(.*)$',
+    '^@/lib/(.*)$',
+    '^@/hooks/(.*)$',
+    '^@/components/ui/(.*)$',
+    '^@/components/(.*)$',
+    '^@/styles/(.*)$',
+    '^@/app/(.*)$',
+    '',
+    '^[./]'
+  ]
+plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss']
