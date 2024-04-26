@@ -21,6 +21,7 @@ const SelectTrigger = React.forwardRef<
       'placeholder:text-muted-foreground text-primary-foreground',
       'flex w-full items-center justify-between whitespace-nowrap rounded-lg bg-primary px-2.5 py-2 text-sm font-medium leading-[14px] transition-colors',
       'hover:bg-primary-hover focus:outline-none active:bg-primary-active disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1',
+      'dark:hover:text-primary-background',
       className
     )}
     {...props}

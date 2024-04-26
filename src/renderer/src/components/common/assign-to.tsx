@@ -13,7 +13,7 @@ export function AssignTo(): JSX.Element {
     <Select>
       <div className="flex items-center justify-start gap-x-2">
         <label className="text-muted-foreground text-sm">Assign to</label>
-        <SelectTrigger className="w-[120px]">
+        <SelectTrigger className="w-auto">
           <SelectValue placeholder="Select a assignee" />
         </SelectTrigger>
       </div>

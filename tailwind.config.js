@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: ['class'],
   content: ['./src/renderer/src/index.html', './src/renderer/src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -13,9 +14,11 @@ export default {
           DEFAULT: 'var(--primary)',
           foreground: 'var(--primary-foreground)',
           hover: 'var(--primary-hover)',
-          active: 'var(--primary-active)'
+          active: 'var(--primary-active)',
+          background: 'var(--primary-background)'
         },
         input: 'var(--input)',
+        foreground: 'var(--foreground)',
         muted: {
           DEFAULT: 'var(--muted)',
           foreground: 'var(--muted-foreground)'
